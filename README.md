@@ -27,46 +27,47 @@ Este proyecto es una aplicación web desarrollada con Laravel 12 para administra
 
 1. Clonar el repositorio:
 
-
+```bash
 git clone URL_DE_TU_REPOSITORIO
-
+```
 
 2. Entrar a la carpeta:
 
-
+```bash
 cd biblioteca-samuel-bernal
-
+```
 
 3. Instalar dependencias:
 
-
+```bash
 composer install
-
+```
 
 4. Crear el archivo de configuración:
 
+```bash
 copy .env.example .env
-
+```
 
 5. Generar la llave:
 
-
+```bash
 php artisan key:generate
-
+```
 
 6. Crear la base de datos MySQL y configurar las credenciales en el archivo `.env`.
 
 7. Ejecutar las migraciones y datos de prueba:
 
-
+```bash
 php artisan migrate --seed
-
+```
 
 8. Iniciar el servidor:
 
-
+```bash
 php artisan serve
-
+```
 
 9. Abrir en el navegador:
 
